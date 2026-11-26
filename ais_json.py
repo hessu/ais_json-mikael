@@ -87,4 +87,4 @@ while True:
         print ('Post:', post)
         print ('Result:', json.loads(r.text)['description'])
     except requests.exceptions.RequestException as e:
-      print e
+      print(e)
